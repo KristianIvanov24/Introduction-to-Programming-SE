@@ -451,6 +451,14 @@ true, true, false, false
 - X - Цар (King)
 
 Входът се чете във формата: figure start_pos end_pos
+> Tip: Можем да четем два символа един до друг в различни променливи по следния начин:
+> ```c++
+> // Input: a2
+> char firstChar, secondChar;
+> std::cin >> firstChar >> secondChar;
+> // firstChar = 'a'
+> // secondChar = '2'
+> ```
 
 **Вход:**
 ```
