@@ -14,29 +14,41 @@ int main()
     int a, b, c;
     std::cin >> a >> b >> c;
 
-    bool aIsEven = a % 2 ? 0 : 1;
-    bool bIsEven = b % 2 ? 0 : 1;
-    bool cIsEven = c % 2 ? 0 : 1;
+    if (a > b) {
+        a += b;
+        b = a - b;
+        a -= b;
+    }
 
-    int maxEven = INT_MIN, minOdd = INT_MAX;
+    if (b > c) {
+        b += c;
+        c = b - c;
+        b -= c;
+    }
 
-    if (aIsEven)
-        maxEven = a;
-    else
+    if (a > b) {
+        a += b;
+        b = a - b;
+        a -= b;
+    }
+
+    int maxEven = 0, minOdd = 0;
+    if (c % 2)
+        minOdd = c;
+    if (b % 2)
+        minOdd = b;
+    if (a % 2)
         minOdd = a;
 
-    if (bIsEven)
-        maxEven = b > maxEven ? b : maxEven;
-    else
-        minOdd = b < minOdd ? b : minOdd;
+    if (a % 2 == 0)
+        maxEven = a;
+    if (b % 2 == 0)
+        maxEven = b;
+    if (c % 2 == 0)
+        maxEven = c;
 
-    if (cIsEven)
-        maxEven = c > maxEven ? c : maxEven;
-    else
-        minOdd = c < minOdd ? c : minOdd;
-
-    if (maxEven == INT_MIN || minOdd == INT_MAX)
-        std::cout << (maxEven == INT_MIN ? minOdd : maxEven) << std::endl;
+    if (maxEven == 0 || minOdd == 0)
+        std::cout << (maxEven == 0 ? minOdd : maxEven) << std::endl;
     else
         std::cout << maxEven - minOdd << std::endl;
 

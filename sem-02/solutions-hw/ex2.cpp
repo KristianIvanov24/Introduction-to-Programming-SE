@@ -12,9 +12,7 @@ int main () {
     int a, b, c, d, e;
     std::cin >> a >> b >> c >> d >> e;
 
-    if (((b >= a && b >= c) || (b <= a && b <= c)) 
-    && ((c >= b && c >= d) || (c <= b && c <= d)) 
-    && ((d >= c && d >= e) || (d <= c && d <= e)))
+    if ((a <= b && b >= c && c <= d && d >= e) || (a >= b && b <= c && c >= d && d <= e))
     {
         std::cout << "yes\n";
     }
