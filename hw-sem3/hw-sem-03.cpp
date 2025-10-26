@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-const double EPS = 1e-9;
+//const double EPS = 1e-9;
 int main()
 {
     //zad-1zad
