@@ -2,7 +2,7 @@
 //Напишете функция, която приема естествено число и връща ново число, което има същите цифри, но в сортиран вид.
 int sortDigits(int num)
 {
-	if (num < 0)return num;
+	if (num < 0) return num;
 	int result = 0;
 	for (int i = 1; i <= 9; i++)
 	{
