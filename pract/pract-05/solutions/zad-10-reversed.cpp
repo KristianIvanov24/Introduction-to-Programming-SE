@@ -1,5 +1,8 @@
 #include <iostream>
 
+// !!!
+// решението е на преместване на първите K от А в B, а не обратното както е в README-то
+
 const int MIN_K = 1;
 
 int countDigits(long long num)
