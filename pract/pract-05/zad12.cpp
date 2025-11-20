@@ -11,6 +11,8 @@ bool isInfix(int n, int k)
 	{
 		if (k != 0 && temp == 0)
 			return true;
+		if (k == 0 && n % 10 == 0)
+			return true;
 		if (temp % 10 == n % 10)
 		{
 			temp /= 10;
