@@ -19,10 +19,7 @@ bool isInfix(int n, int k)
 			n /= 10;
 		}
 		else
-		{
 			temp = k;
-			n /= 10;
-		}
 	}
 	return k != 0 && temp == 0;
 }
