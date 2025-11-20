@@ -3,7 +3,7 @@
 const int MIN_VALUE = 100;
 bool isInfix(int n, int k)
 {
-	if (n < 100)
+	if (n < MIN_VALUE)
 		return false;
 	n /= 10;
 	int temp = k;
