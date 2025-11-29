@@ -23,7 +23,7 @@ void inputArray(int array[], size_t size)
 	for (int i = 0; i < size; ++i)
 		std::cin >> array[i];
 }
-void printArray(int array[], size_t size)
+void printArray(const int array[], size_t size)
 {
 	for (int i = 0; i < size; ++i)
 		std::cout << array[i];
