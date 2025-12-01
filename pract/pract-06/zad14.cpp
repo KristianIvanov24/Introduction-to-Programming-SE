@@ -1,7 +1,6 @@
 #include <iostream>
 //Да се напишат функции, които приемат два масива (множества) и връщат обединениетo, сечението и разликата на двете множества.
 const size_t SIZE = 1024;
-const int MIN_VALUE = 0;
 
 void makeEqualArrays(const int array1[], int array2[], size_t size1, size_t& size2)
 {
