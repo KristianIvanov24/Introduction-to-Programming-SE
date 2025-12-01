@@ -1,7 +1,6 @@
 #include <iostream>
 //Напишете функция, която приема два сортирани масива и ги слива в трети масив като поддържа сортировката.
 const size_t SIZE = 1024;
-const int MIN_VALUE = 0;
 
 void sortAscOrdDesc(int arr[], size_t size, bool isAsc)
 {
