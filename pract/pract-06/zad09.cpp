@@ -3,17 +3,17 @@
 // Ако има две най-дълги редици с еднаква дължина да върне числото от първата такава.
 const size_t SIZE = 1024;
 
-int longestSubArr(const int array[], size_t size)
+void longestSubArr(const int array[], size_t size, int& longest, int& max)
 {
-	int longest = 1;
-	int max = array[0];
-	int currLength = 0;
+	longest = 1;
+	max = array[0];
+	int currLength = 1;
 
 	for (int i = 1; i < size; ++i)
 	{
 		if (array[i] == array[i - 1])
 			currLength++;
-		else currLength = 0;
+		else currLength = 1;
 
 		if (currLength > longest)
 		{
@@ -21,8 +21,6 @@ int longestSubArr(const int array[], size_t size)
 			max = array[i];
 		}
 	}
-
-	return max;
 }
 void inputArray(int array[], size_t size)
 {
@@ -44,5 +42,7 @@ int main()
 	int array[SIZE];
 	inputArray(array, size);
 
-	std::cout << longestSubArr(array, size);
+	int length = 0, number = 0;
+	longestSubArr(array, size, length, number);
+	std::cout << "Length: " << length << "\nnumber: " << number;
 }
