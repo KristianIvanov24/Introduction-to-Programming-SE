@@ -8,4 +8,6 @@
 - [**Тема 5:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-05) Масиви (с фиксирана дължина).
 - [**Тема 6:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-06) Многомерни масиви.
 - [**Тема 7:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-07) Бройни системи. Побитови операции.
+- [**Тема 8:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-08) Указатели. Символни низове.
+
 
