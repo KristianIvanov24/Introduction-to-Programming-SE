@@ -46,6 +46,11 @@ void swap(char& a, char& b)
 // more robust alternative to reverseString
 void reverseString(char* str, size_t start, size_t end)
 {
+    if (!str)
+    {
+        return;
+    }
+    
     if (start >= end)
     {
         return;
@@ -61,6 +66,11 @@ void reverseString(char* str, size_t start, size_t end)
 
 void reverseString(char* str, size_t len)
 {
+    if (!str)
+    {
+        return;
+    }
+    
     size_t end = len / 2;
     for (size_t i = 0; i < end; i++)
     {
@@ -70,6 +80,11 @@ void reverseString(char* str, size_t len)
 
 void toString(int num, char* str)
 {
+    if (!str)
+    {
+        return;
+    }
+    
     bool isNeg = false;
 
     if (num < 0)
