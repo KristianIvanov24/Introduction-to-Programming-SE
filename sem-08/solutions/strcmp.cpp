@@ -9,7 +9,7 @@ int myStrcmp(const char* str1, const char* str2)
 	if (!str1 || !str2)
 		return 0;
 
-	while (*str1 == *str2)
+	while (*str1 && *str2 && *str1 == *str2)
 	{
 		str1++;
 		str2++;
@@ -24,4 +24,5 @@ int main()
 	char str6[] = "test";
 	std::cout << myStrcmp(str5, str6) << std::endl;
 	return 0;
+
 }
