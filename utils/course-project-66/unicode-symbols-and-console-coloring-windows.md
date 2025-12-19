@@ -5,7 +5,7 @@
 ## Символи за боите
 
 ```cpp
-std::cout << "\xE2\x99\xA0";  // ♠ Спатия (Spades)
+std::cout << "\xE2\x99\xA0";  // ♠ Пика (Spades)
 std::cout << "\xE2\x99\xA5";  // ♥ Купа (Hearts)
 std::cout << "\xE2\x99\xA6";  // ♦ Каро (Diamonds)
 std::cout << "\xE2\x99\xA3";  // ♣ Спатия (Clubs)
@@ -67,16 +67,16 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
     
     setColor(Color::BrightWhite);
-    std::cout << "A\u2660 ";  // A♠
+    std::cout << "A\xE2\x99\xA0";  // A♠
     
     setColor(Color::LightRed);
-    std::cout << "K\u2665 ";  // K♥
+    std::cout << "K\xE2\x99\xA5 ";  // K♥
     
     setColor(Color::LightRed);
-    std::cout << "Q\u2666 ";  // Q♦
+    std::cout << "Q\xE2\x99\xA6 ";  // Q♦
     
     setColor(Color::BrightWhite);
-    std::cout << "J\u2663";   // J♣
+    std::cout << "J\xE2\x99\xA3";   // J♣
     
     setColor(Color::White);
     std::cout << std::endl;
