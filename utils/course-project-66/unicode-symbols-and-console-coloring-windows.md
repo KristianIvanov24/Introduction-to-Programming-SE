@@ -5,10 +5,10 @@
 ## Символи за боите
 
 ```cpp
-std::cout << "\u2660";  // ♠ Спатия (Spades)
-std::cout << "\u2665";  // ♥ Купа (Hearts)
-std::cout << "\u2666";  // ♦ Каро (Diamonds)
-std::cout << "\u2663";  // ♣ Спатия (Clubs)
+std::cout << "\xE2\x99\xA0";  // ♠ Спатия (Spades)
+std::cout << "\xE2\x99\xA5";  // ♥ Купа (Hearts)
+std::cout << "\xE2\x99\xA6";  // ♦ Каро (Diamonds)
+std::cout << "\xE2\x99\xA3";  // ♣ Спатия (Clubs)
 ```
 
 За да работят символите, трябва в началото на програмата ни да зададем с какъв encoding да работи конзолата:
