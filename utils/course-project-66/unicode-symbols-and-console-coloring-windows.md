@@ -24,8 +24,8 @@ SetConsoleOutputCP(CP_UTF8);
 ```cpp
 #include <windows.h>
 
-void setColor(int color) {
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+void setColor(Color color) {
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (int)color);
 }
 ```
 
@@ -59,8 +59,8 @@ enum class Color
 #include <windows.h>
 #include <iostream>
 
-void setColor(int color) {
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+void setColor(Color color) {
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (int)color);
 }
 
 int main() {
