@@ -11,5 +11,4 @@
 - [**Тема 8:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-08) Указатели. Символни низове.
 - [**Тема 9:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-09) Символни низове - продължение.
 - [**Тема 10:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-10) Динамична памет.
-
-
+- [**Тема 11:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem-11) Рекурсия. Алгоритми. Сложност на алгоритмите
