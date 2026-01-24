@@ -1,0 +1,78 @@
+#include <iostream>
+
+int* subarray(const int* arr, size_t start, size_t len)
+{
+    int* result = new int[len];
+    for (size_t i = 0; i < len; i++)
+    {
+        result[i] = arr[start + i];
+    }
+    return result;
+}
+
+int* findLongestIncreasingSequence(const int* arr, size_t size, size_t& outputSize)
+{
+    if (size == 0)
+    {
+        outputSize = 0;
+        return nullptr;
+    }
+
+    size_t maxStart = 0;
+    size_t maxLen = 1;
+
+    size_t currStart = 0;
+    size_t currLen = 1;
+
+    for (size_t i = 1; i < size; i++)
+    {
+        if (arr[i] > arr[i - 1])
+        {
+            currLen++;
+            continue;
+        }
+
+        if (currLen > maxLen)
+        {
+            maxLen = currLen;
+            maxStart = currStart;
+        }
+
+        currStart = i;
+        currLen = 1;
+    }
+
+    if (currLen > maxLen)
+    {
+        maxLen = currLen;
+        maxStart = currStart;
+    }
+
+    outputSize = maxLen;
+    return subarray(arr, maxStart, maxLen);
+}
+
+int main()
+{
+    size_t size;
+    std::cin >> size;
+
+    int* arr = new int[size];
+    for (size_t i = 0; i < size; i++)
+    {
+        std::cin >> arr[i];
+    }
+
+    size_t outputSize;
+    int* result = findLongestIncreasingSequence(arr, size, outputSize);
+
+    for (size_t i = 0; i < outputSize; i++)
+    {
+        std::cout << result[i] << " ";
+    }
+
+    delete[] arr;
+    delete[] result;
+
+    return 0;
+}
