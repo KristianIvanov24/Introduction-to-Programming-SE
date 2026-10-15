@@ -29,7 +29,7 @@ int main()
     std::cout << (a && b) << std::endl; // 1
     std::cout << (a == 1 || b == 2 && c == 3) << std::endl; // 2
     std::cout << !!!b << std::endl; // 3
-    std::cout << !a < b << std::endl; // 4
+    std::cout << (!a < b) << std::endl; // 4
     std::cout << !(a < b) << std::endl; // 5
 }
 ```

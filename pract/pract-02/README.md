@@ -1,4 +1,5 @@
-# Практикум 02
+# Практикум 02 | 13.10.2026
 
-- [Tasks](tasks.md)
-- [Snippets](snippets.md)
+### 01. [Snippets](snippets.md)
+
+### 02. [Tasks](tasks.md)
