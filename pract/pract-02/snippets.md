@@ -1,6 +1,6 @@
-# Code snippets
+# Практикум 02 | 13.10.2026 | Snippets
 
-### Snippet 01
+## Snippet 01
 
 ```c++
 #include <iostream>
@@ -17,7 +17,7 @@ int main()
 }
 ```
 
-### Snippet 02
+## Snippet 02
 
 ```c++
 #include <iostream>
@@ -34,7 +34,7 @@ int main()
 }
 ```
 
-### Snippet 03
+## Snippet 03
 
 ```c++
 #include <iostream>
@@ -46,7 +46,7 @@ int main()
 }
 ```
 
-### Snippet 04
+## Snippet 04
 
 ```c++
 #include <iostream>
@@ -58,7 +58,7 @@ int main()
 }
 ```
 
-### Snippet 05
+## Snippet 05
 
 ```c++
 #include <iostream>
@@ -81,7 +81,7 @@ int main()
 }
 ```
 
-### Snippet 06
+## Snippet 06
 
 ```c++
 #include <iostream>
@@ -93,7 +93,7 @@ int main() {
 }
 ```
 
-### Snippet 07
+## Snippet 07
 
 ```c++
 #include <iostream>
@@ -110,7 +110,7 @@ int main() {
 }
 ```
 
-### Snippet 08
+## Snippet 08
 
 ```c++
 #include <iostream>
