@@ -3,3 +3,4 @@
 
 - [**Тема 1:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem.01) Въведение. Типове данни. Основни аритметични операции.
 - [**Тема 2:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem.02) Разклонени алгоритми. Условни оператори.
+- [**Тема 3:**](https://github.com/KristianIvanov24/Introduction-to-Programming-SE/tree/main/sem.03) Оператори за цикъл.
