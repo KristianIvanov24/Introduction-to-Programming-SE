@@ -5,3 +5,5 @@
 ### 02. [Live coding](live-coding.md)
 
 ### 03. [Tasks](tasks.md)
+
+### 04. [Solutions](solutions)
