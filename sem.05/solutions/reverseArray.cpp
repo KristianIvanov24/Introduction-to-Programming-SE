@@ -2,7 +2,7 @@
 
 // Обръщане на масив
 
-const int SIZE = 4;
+const size_t SIZE = 4;
 
 void printArray(int arr[], size_t size)
 {

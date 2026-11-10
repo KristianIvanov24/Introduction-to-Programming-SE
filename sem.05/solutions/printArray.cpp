@@ -2,7 +2,7 @@
 
 // Отпечатване на масив
 
-const int SIZE = 5;
+const size_t SIZE = 5;
 
 void printArray(int arr[], size_t size)
 {
